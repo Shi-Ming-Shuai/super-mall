@@ -1,19 +1,25 @@
-# supermall
+# Vue 购物车案例
 
-## Project setup
-```
-npm install
-```
 
-### Compiles and hot-reloads for development
+
+### 在服务器运行
 ```
 npm run serve
 ```
 
-### Compiles and minifies for production
+### 打包最终文件
 ```
 npm run build
 ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+### 使用到的插件 （适用于移动端）
+postcss-px-to-vw    将项目中的px单位 转换为vw
+```
+vue-lazyload       vue图片懒加载
+```
+fastclick      //使用fastclick 解决移动端点击300ms 延迟
+FastClick.attach(document.body)
+
+### 自定义插件  吐司（弹窗） toast
+
+###  
